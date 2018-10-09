@@ -49,4 +49,17 @@ if (message.content.startsWith(PrEfix + 'st')) {
 
 });
 
+
+ 
+
+
+
+client.on('ready', () => {
+
+    client.channels.get("476045045418426368").join();
+
+    });
+
+
+
 client.login(process.env.BOT_TOKEN);  //لا تحط التوكن حقك هنا
