@@ -3,7 +3,7 @@ const client = new Discord.Client();
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
-  client.user.setGame("Nathaan , Nicolas.","https://www.twitch.tv/idk");
+  client.user.setGame("Nathaan.","https://www.twitch.tv/idk");
 });
 
 client.on('message', msg => {
