@@ -16,6 +16,8 @@
 
   "dependencies": {
 
+    "ffmpeg": "^4.0.2",
+    
     "ascii-data-table": "^2.1.1",
 
     "canvas": "^1.6.10",
