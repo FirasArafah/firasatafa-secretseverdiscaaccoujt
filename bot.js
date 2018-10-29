@@ -53,7 +53,20 @@ if (message.content.startsWith(PrEfix + 'st')) {
  
 
 
+client.on('message', Maz=> {
 
+    if (Maz.content == 'join') {
+        if (Maz.member.voiceChannel) {
+
+     if (Maz.member.voiceChannel.joinable) {
+         Maz.member.voiceChannel.join()
+     }
+    }
+}
+})
+client.on('ready', () => {
+    client.channels.get("503454728890613764").join();
+    });
 
 
 
