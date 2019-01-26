@@ -10,7 +10,7 @@ client.on('message', msg => {
     msg.reply('Pong!');
   }
 });
-var PrEfix = "f";
+var PrEfix = "m";
 
 client.on('message', message => {
 
@@ -20,7 +20,7 @@ client.on('message', message => {
 
   var argresult = args.join(' ');
 
-  if (message.author.id !== '478291914106339332') return;
+  if (message.author.id !== '535419159803199499') return;
 
 if (message.content.startsWith(PrEfix + 'wt')) {
 
