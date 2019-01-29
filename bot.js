@@ -3,15 +3,10 @@ const client = new Discord.Client();
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
-  client.user.setGame("Me ","https://www.twitch.tv/idk");
+  client.user.setGame("__#7075","https://www.twitch.tv/idk");
 });
 
-client.on('message', msg => {
-  if (msg.content === 'ping') {
-    msg.reply('Pong!');
-  }
-});
-var PrEfix = "m";
+var PrEfix = "f";
 
 client.on('message', message => {
 
@@ -21,7 +16,7 @@ client.on('message', message => {
 
   var argresult = args.join(' ');
 
-  if (message.author.id !== '535419159803199499') return;
+  if (message.author.id !== '478291914106339332') return;
 
 if (message.content.startsWith(PrEfix + 'wt')) {
 
