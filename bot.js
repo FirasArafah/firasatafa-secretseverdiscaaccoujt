@@ -45,7 +45,12 @@ if (message.content.startsWith(PrEfix + 'st')) {
 });
 
 
- 
+ client.on('guildMemberAdd',async member => {
+  if(member.guild.id !== '537968114340724746') return;
+  setTimeout(function(){
+  member.guild.channels.find(r => r.id === '537969708545343508').send('Welcome To Bُubbles Tumblr .');
+},3000);
+});
 
 
 client.login(process.env.BOT_TOKEN);  //لا تحط التوكن حقك هنا
