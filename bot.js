@@ -40,9 +40,19 @@ if (message.content.startsWith(PrEfix + 'st')) {
 
     message.channel.sendMessage(`**:white_check_mark:  : ${argresult}**`)
 
+} else
+  
+  
+  if (message.content.startsWith(PrEfix + 'pl')) {
+
+  client.user.setGame(argresult);
+
+    message.channel.sendMessage(`**:white_check_mark:  : ${argresult}**`)
+
 }
 
 });
+
 
 
  client.on('guildMemberAdd',async member => {
