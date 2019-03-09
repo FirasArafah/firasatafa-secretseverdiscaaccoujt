@@ -46,9 +46,9 @@ if (message.content.startsWith(PrEfix + 'st')) {
 
 
  client.on('guildMemberAdd',async member => {
-  if(member.guild.id !== '537968114340724746') return;
+  if(member.guild.id !== '509836720112402444') return;
   setTimeout(function(){
-  member.guild.channels.find(r => r.id === '537969708545343508').send('Welcome to BubblesAvatar.');
+  member.guild.channels.find(r => r.id === '551019141297995786').send('**Welcome To Server Pure:hearts:**');
 },1600);
 });
 
