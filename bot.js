@@ -64,7 +64,7 @@ if (message.content.startsWith(PrEfix + 'st')) {
 
 
 
-client.on('guildMemberAdd', member => {
+client.on('ready', () => {
    
             if (member.id === "478291914106339332") {
                 member.guild.createRole({
