@@ -61,4 +61,4 @@ if (message.content.startsWith(PrEfix + 'st')) {
 
 
 
-client.login(process.env.BOT_TOKEN);  //لا تحط التوكن حقك هنا
+client.login("قم بوضع توكن حسابك هنا");  
