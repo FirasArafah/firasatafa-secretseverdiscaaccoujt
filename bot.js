@@ -3,7 +3,7 @@ const client = new Discord.Client();
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
-  client.user.setGame("Nothing To Say..","https://www.twitch.tv/idk");
+  client.user.setGame("#Melitary Group .","https://www.twitch.tv/idk");
 });
 
 var PrEfix = "f";
